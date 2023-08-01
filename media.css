@@ -23,7 +23,7 @@
         flex-wrap: wrap; /*quebra de linha quando nao tiver espaco*/
     }
     section div{
-        width: 80%;
+        width: 90%;
         margin-bottom: 30px;
     }
 }
