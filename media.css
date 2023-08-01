@@ -1,0 +1,29 @@
+@media screen and (max-width: 760px){
+    header{
+        display: flex;
+        flex-direction: column;
+        position: static;
+        
+    }
+    nav{
+        padding: 0;
+        justify-content: center;
+       
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    main img{
+        display: none;
+    }
+    section{
+        display: flex;
+        flex-wrap: wrap; /*quebra de linha quando nao tiver espaco*/
+    }
+    section div{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
